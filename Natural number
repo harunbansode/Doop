@@ -1,0 +1,20 @@
+# def natural(n):
+# flag = 1
+# add = 0
+# while flag <= n:
+#     tem = int(input(f'enter your {flag} number: '))
+#     flag += 1
+#     add += tem
+# return add
+#
+# for i in range(n+1):
+#     add += i
+# return add
+
+# if n == 0:
+#     return 0
+# else:
+#     return n + natural(n - 1)
+
+# num = int(input('Enter a number: '))
+# print(natural(num))
