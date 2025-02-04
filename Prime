@@ -1,0 +1,14 @@
+def prime_not(num):
+    flag = 0
+    for i in range(2, num):
+        if num % i == 0:
+            flag += 1
+            break
+    if flag == 1:
+        print('Its not prime')
+    else:
+        print(f'Its Prime')
+
+
+n = 3
+prime_not(n)
