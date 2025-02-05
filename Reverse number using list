@@ -1,0 +1,9 @@
+n = 123
+my_list = list(map(int, str(n)))
+temp = 0
+reverse = []
+i = len(my_list) - 1
+while i >= 0:
+    reverse.append(my_list[i])
+    i -= 1
+print(reverse)
