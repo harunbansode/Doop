@@ -1,0 +1,8 @@
+n = 1234
+temp = n
+i = []
+while n > 0:
+    k = int(n%10)
+    i.append(k)
+    num = num // 10
+print(i)
